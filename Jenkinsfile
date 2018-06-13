@@ -10,7 +10,7 @@ pipeline {
     stage('buid') {
       steps {
         echo 'hola'
-        sh 'sh \'npm install\''
+        sh 'npm install'
       }
     }
   }
